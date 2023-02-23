@@ -34,13 +34,7 @@ const App: React.FC = () => {
       <div className={style.container}>
         <div className={style.cards}>
           {getCards().map((obj) => (
-            <Card
-              id={obj.id}
-              image={obj.image}
-              fact={obj.fact}
-              key={obj.image}
-              likes={obj.likes}
-            />
+            <Card {...obj} />
           ))}
         </div>
       </div>
