@@ -1,0 +1,23 @@
+.root {
+  padding: 10px;
+}
+header {
+  height: 50px;
+  button {
+    background-color: transparent;
+    color: #fff;
+    border: #fff 1px solid;
+    cursor: pointer;
+  }
+}
+.container {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+}
+.cards {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 15px;
+}
